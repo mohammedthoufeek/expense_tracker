@@ -1,0 +1,39 @@
+.monthly-tracker-main-div {
+    height: 100%;
+    min-width: 100%;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthly-tracker-main-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+    font-size: 25px;
+
+}
+
+.monthly-tracker-main-info button {
+    margin: 20px;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.monthly-tracker-main-info button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.deactivate {
+    display: none;
+}

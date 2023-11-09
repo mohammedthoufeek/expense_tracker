@@ -1,0 +1,128 @@
+.login-container {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    gap: 20px;
+
+}
+
+.login-main-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login-google-button {
+    margin: 20px 0 0 0;
+    border-radius: 30px;
+    border: none;
+    width: 350px;
+    height: 42px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.login-google-icon {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.login-google-title {
+    margin: auto;
+    color: white;
+
+}
+
+.login-type-seporator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.login-form-input-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.login-form-input {
+    margin: 10px 0 5px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: #d3e4f1;
+    width: 350px;
+    height: 35px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.login-form-input:active {
+    transform: scale(.98);
+
+}
+
+.login-remember-txt {
+    margin: 0 0 0 10px;
+    font-weight: 500;
+}
+
+.login-forgot-txt {
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.login-submit-btn {
+    padding: 10px 20px 10px 20px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:500px) {
+    .login-container {
+        margin: 10px 0 0 0;
+    }
+
+    .login-main-title {
+        font-size: 25px;
+    }
+
+    .login-google-button {
+        width: 300px;
+        height: 42px;
+        margin: 10px 0 0 0;
+    }
+
+    .login-form-input {
+        margin: 10px 0 5px 0;
+        border-radius: 30px;
+        width: 300px;
+        height: 35px;
+        box-sizing: border-box;
+        padding: 10px;
+    
+    }
+}
